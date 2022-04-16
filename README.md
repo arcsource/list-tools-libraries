@@ -96,8 +96,8 @@ A list of often-used (personal) development tools and libraries with their forke
    - https://github.com/arcsource/tools-phpdesktop
 
 - **largecsv2mysql**
-- a php script to import very large csv file to Mysql database
-- https://github.com/arcsource/tools-largecsv2mysql
+   - a php script to import very large csv file to Mysql database
+   - https://github.com/arcsource/tools-largecsv2mysql
 
 ### Express
 

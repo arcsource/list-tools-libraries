@@ -1,6 +1,6 @@
 ## list-tools-libraries
 
-A list of often-used tools and libraries with their forked versions for archiving purposes.
+A list of often-used (personal) development tools and libraries with their forked versions for archiving purposes.
 
 ## Content
 
@@ -19,6 +19,7 @@ A list of often-used tools and libraries with their forked versions for archivin
 - [Data Processing](#data-processing)
   - [R](#r)
   - [Assorted Data Processing Tools](#assorted-data-processing-tools)
+- [Web Mapping](#web-mapping)
 - [Firebase](#firebase)
 - [Game Development](#game-development)
   - [Choose Your Own Adventure](#choose-your-own-adventure)
@@ -94,6 +95,10 @@ A list of often-used tools and libraries with their forked versions for archivin
    - Develop desktop GUI applications using PHP, HTML5, JavaScript and SQLite
    - https://github.com/arcsource/tools-phpdesktop
 
+- **largecsv2mysql**
+- a php script to import very large csv file to Mysql database
+- https://github.com/arcsource/tools-largecsv2mysql
+
 ### Express
 
 - **cors** [[link]](https://www.npmjs.com/package/cors)
@@ -128,6 +133,23 @@ A list of often-used tools and libraries with their forked versions for archivin
 
 ---
 
+## Web Mapping
+
+- **geoserver** [[link]](https://geoserver.org/)
+   - GeoServer is an open source server for sharing geospatial data
+   - https://github.com/arcsource/tools-geoserver
+
+- **mapshaper**  [[link]](http://mapshaper.org/)
+   - Tools for editing Shapefile, GeoJSON, TopoJSON and CSV files
+   - https://github.com/arcsource/tools-mapshaper
+
+- **bboxfinder**  [[link]](https://github.com/aaronr/bboxfinder.com)
+   - Helper page for finding bbox values from a map to help with interaction with tools like gdal, leaflet, openlayers, etc.
+   - https://github.com/arcsource/tools-bboxfinder
+
+
+---
+
 
 ## Firebase
 
@@ -138,6 +160,10 @@ A list of often-used tools and libraries with their forked versions for archivin
 - **cloud-functions-emulator** [[link]](https://github.com/GoogleCloudPlatform/cloud-functions-emulator/wiki)
    - A local emulator for deploying, running, and debugging Google Cloud Functions.
    - https://github.com/arcsource/tools-cloud-functions-emulator
+
+- **firebase-to-csv**
+   - Node.js module for creating CSV backups of firebase databases.
+   - https://github.com/arcsource/tools-firebase-to-csv
 
 
 ---

@@ -149,6 +149,10 @@ A list of frequently-used (personal) development tools and libraries with their 
    - A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
    - https://sqlite.org/src/timeline (original fossil repo)
    - https://github.com/arcsource/tools-sqlite
+
+- **postgres** [[link]](https://www.postgresql.org/)
+   - An open source object-relational database (supports storing and managing spatial information thru postgis extension, and other cool data-storage options)
+   - https://github.com/arcsource/tools-postgres
   
 ### NoSQL Databases
 

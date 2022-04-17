@@ -1,6 +1,6 @@
 ## list-tools-libraries
 
-A list of often-used (personal) development tools and libraries with their forked versions for archiving purposes.
+A list of frequently-used (personal) development tools and libraries with their forked versions for archiving purposes.
 
 ## Content
 
@@ -20,6 +20,7 @@ A list of often-used (personal) development tools and libraries with their forke
   - [Relational Databases](#relational-databases)
   - [NoSQL Databases](#nosql-databases)
   - [Express](#express)
+  - [PHP](#php)
 - [Security](#security)
 - [Data Processing](#data-processing)
   - [R](#r)
@@ -160,6 +161,22 @@ A list of often-used (personal) development tools and libraries with their forke
 - **nodemailer**
    - module for Node.js applications to allow easy email sending
    - https://github.com/arcsource/tools-nodemailer
+
+### PHP
+
+The following PHP frameworks follows the  MVC architecture design pattern.
+
+- **codeigniter** [[link]](https://codeigniter.com/)
+   - A powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.
+   - https://github.com/arcsource/tools-codeigniter4
+
+- **laravel** [[link]](https://laravel.com/)
+   - A web application framework with expressive, elegant.
+   - https://github.com/arcsource/tools-laravel
+
+- **phalcon** [[link]](https://phalcon.io/)
+   - A full-stack PHP framework delivered as a C-extension, it features increased execution speed and optimal performance due to its efficient memory utilization. (Blazing-fast websites)
+   - https://github.com/arcsource/tools-cphalcon
 
 
 ## Security

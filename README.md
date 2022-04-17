@@ -9,18 +9,27 @@ A list of often-used (personal) development tools and libraries with their forke
 - [Hybrid Apps](#hybrid-apps)
   - [Electron](#electron)
 - [Front-End](#front-end)
-  - [Assorted ui tools and libraries](#assorted-ui-tools-and-libraries)
+  - [React](#react)
+  - [VueJS](#vuejs)
+  - [HTTP Clients](#http-clients)
   - [Templates](#templates)
   - [Data Visualization](#data-visualization)
+  - [WebGL](#webgl)
+  - [Assorted ui tools and libraries](#assorted-ui-tools-and-libraries)
 - [Backend](#backend)
   - [Relational Databases](#relational-databases)
+  - [NoSQL Databases](#nosql-databases)
   - [Express](#express)
 - [Security](#security)
 - [Data Processing](#data-processing)
   - [R](#r)
   - [Assorted Data Processing Tools](#assorted-data-processing-tools)
 - [Web Mapping](#web-mapping)
+  - [Assorted Web Mapping Tools](#assorted-web-mapping-tools)
+  - [LeafletJS](#leafletjs)
+  - [MapBox](#mapbox)
 - [Firebase](#firebase)
+- [Package Managers/Task Runners](#package-managerstask-runners)
 - [Game Development](#game-development)
   - [Choose Your Own Adventure](#choose-your-own-adventure)
 - [Android](#android)
@@ -38,9 +47,55 @@ A list of often-used (personal) development tools and libraries with their forke
    - https://github.com/arcsource/electron-api-demos
 
 
----
-
 ## Front-End
+
+### React
+
+- **create-react-app (cra)** [[link]](https://reactjs.org/)
+   - A JavaScript library for building user interfaces
+   - https://github.com/arcsource/tools-react
+
+- **next.js** [[link]](https://nextjs.org/)
+   - React framework with hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+   - https://github.com/arcsource/tools-nextjs
+
+- **gatsby** [[link]](https://www.gatsbyjs.com/)
+   - Build blazing fast, modern apps and websites with React
+   - https://github.com/arcsource/tools-gatsby
+
+- **mui (material-ui)** [[link]](https://mui.com/material-ui/getting-started/installation/)
+   - A React UI library based on material design
+   - https://github.com/arcsource/tools-material-ui
+
+### VueJS
+
+- **vuejs** [[link]](https://vuejs.org/)
+   - A progressive JavaScript framework that offers an approachable, performant and versatile framework for building web user interfaces
+   - https://github.com/arcsource/tools-create-vue
+
+### HTTP Clients
+
+- **axios** [[link]](https://axios-http.com/)
+   - Promise based HTTP client for the browser and node.js
+   - https://github.com/arcsource/tools-axios
+
+### Templates
+
+- **web-starter-kit** [[link]](http://developers.google.com/web/starter-kit)
+   - Web Starter Kit - a workflow for multi-device websites 
+   - https://github.com/arcsource/web-starter-kit
+
+### Data Visualization
+
+- **d3** [[link]](https://d3js.org/)
+   - Bring data to life with SVG, Canvas and HTML.
+   - https://github.com/arcsource/tools-d3
+
+### WebGL
+
+- **threejs** [[link]](https://threejs.org/)
+   - JavaScript 3D Library
+   - https://github.com/arcsource/tools-threejs
 
 ### Assorted ui tools and libraries
 
@@ -68,20 +123,6 @@ A list of often-used (personal) development tools and libraries with their forke
    - Progressive image with Lazyload
    - https://github.com/arcsource/tools-progressive-image-lazyload
 
-### Templates
-
-- **web-starter-kit** [[link]](http://developers.google.com/web/starter-kit)
-   - Web Starter Kit - a workflow for multi-device websites 
-   - https://github.com/arcsource/web-starter-kit
-
-### Data Visualization
-
-- **d3** [[link]](https://d3js.org/)
-   - Bring data to life with SVG, Canvas and HTML.
-   - https://github.com/arcsource/tools-d3
-
-
----
 
 ## Backend
 
@@ -98,14 +139,28 @@ A list of often-used (personal) development tools and libraries with their forke
 - **largecsv2mysql**
    - a php script to import very large csv file to Mysql database
    - https://github.com/arcsource/tools-largecsv2mysql
+  
+
+### NoSQL Databases
+
+- **mongoose** [[link]](https://mongoosejs.com/)
+   - mongodb object modeling for node.js
+   - https://github.com/arcsource/tools-mongoose
 
 ### Express
+
+- **express** [[link]](https://expressjs.com/)
+   - Fast, unopinionated, minimalist web framework for node.
+   - https://github.com/arcsource/tools-express
 
 - **cors** [[link]](https://www.npmjs.com/package/cors)
    - Node.js CORS middleware 
    - https://github.com/arcsource/tools-cors
 
----
+- **nodemailer**
+   - module for Node.js applications to allow easy email sending
+   - https://github.com/arcsource/tools-nodemailer
+
 
 ## Security
 
@@ -113,8 +168,6 @@ A list of often-used (personal) development tools and libraries with their forke
    - Automatic SQL injection and database takeover tool 
    - https://github.com/arcsource/tools-sqlmap
 
-
----
 
 ## Data Processing
 
@@ -131,9 +184,9 @@ A list of often-used (personal) development tools and libraries with their forke
    - https://github.com/arcsource/tools-json
 
 
----
-
 ## Web Mapping
+
+### Assorted Web Mapping Tools
 
 - **geoserver** [[link]](https://geoserver.org/)
    - GeoServer is an open source server for sharing geospatial data
@@ -147,8 +200,21 @@ A list of often-used (personal) development tools and libraries with their forke
    - Helper page for finding bbox values from a map to help with interaction with tools like gdal, leaflet, openlayers, etc.
    - https://github.com/arcsource/tools-bboxfinder
 
+### LeafletJS
 
----
+- **leafletjs** [[link]](https://leafletjs.com/)
+   - JavaScript library for mobile-friendly interactive maps
+   - https://github.com/arcsource/tools-leaflet
+
+- **react-leaflet** [[link]](https://react-leaflet.js.org/)
+   - React components for Leaflet maps
+   - https://github.com/arcsource/tools-react-leaflet
+
+### MapBox
+
+- **mapboxgljs** [[link]](https://www.mapbox.com/mapbox-gljs)
+   - Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL
+   - https://github.com/arcsource/tools-mapbox-gl-js
 
 
 ## Firebase
@@ -166,7 +232,28 @@ A list of often-used (personal) development tools and libraries with their forke
    - https://github.com/arcsource/tools-firebase-to-csv
 
 
----
+## Package Managers/Task Runners
+
+- **npm** [[link]](https://www.npmjs.com/)
+   - Javascript package manager
+   -  https://github.com/npm
+
+- **yarn** [[link]](https://yarnpkg.com/getting-started/install)
+   - Package manager (alternate option to npm)
+   - https://github.com/arcsource/tools-yarn-berry
+
+- **gulpjs** [[link]](https://gulpjs.com/)
+   - A toolkit to automate & enhance your workflow
+   - https://github.com/arcsource/tools-gulp
+
+- **composer** [[link]](https://getcomposer.org/)
+   - A Dependency Manager for PHP
+   - https://github.com/arcsource/tools-composer
+
+- **webpack** [[link]](https://webpack.js.org/)
+   - A static module bundler for modern JavaScript applications
+   - https://github.com/arcsource/tools-webpack
+
 
 ## Game Development
 
@@ -176,8 +263,6 @@ A list of often-used (personal) development tools and libraries with their forke
    - ChoiceScript is a language for developing multiple-choice games
    - https://github.com/arcsource/tools-choicescript
 
-
----
 
 ## Android
 
@@ -190,14 +275,11 @@ A list of often-used (personal) development tools and libraries with their forke
    - https://github.com/arcsource/tools-greendao
 
 
----
-
 ## Sample Codes from Books
 
 - **introduction to algorithms**
    - by Cormen, Leiserson, Rivest, Stein (CLRS) 
    - https://github.com/klutometis/clrs/fork
-
 
 
 @weaponsforge  

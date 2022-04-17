@@ -15,12 +15,17 @@ A list of frequently-used (personal) development tools and libraries with their 
   - [Templates](#templates)
   - [Data Visualization](#data-visualization)
   - [WebGL](#webgl)
-  - [Assorted ui tools and libraries](#assorted-ui-tools-and-libraries)
+  - [Assorted UI Tools and Libraries](#assorted-ui-tools-and-libraries)
 - [Backend](#backend)
   - [Relational Databases](#relational-databases)
   - [NoSQL Databases](#nosql-databases)
-  - [Express](#express)
+  - [NodeJS](#nodejs)
   - [PHP](#php)
+  - [Web Servers](#web-servers)
+- [Cloud Platforms](#cloud-platforms)
+  - [AWS](#aws)
+  - [Firebase](#firebase)
+  - [Heroku](#heroku)
 - [Security](#security)
 - [Data Processing](#data-processing)
   - [R](#r)
@@ -29,7 +34,6 @@ A list of frequently-used (personal) development tools and libraries with their 
   - [Assorted Web Mapping Tools](#assorted-web-mapping-tools)
   - [LeafletJS](#leafletjs)
   - [MapBox](#mapbox)
-- [Firebase](#firebase)
 - [Package Managers/Task Runners](#package-managerstask-runners)
 - [Game Development](#game-development)
   - [Choose Your Own Adventure](#choose-your-own-adventure)
@@ -98,7 +102,7 @@ A list of frequently-used (personal) development tools and libraries with their 
    - JavaScript 3D Library
    - https://github.com/arcsource/tools-threejs
 
-### Assorted ui tools and libraries
+### Assorted UI Tools and Libraries
 
 - **draggable** [[link]](https://shopify.github.io/draggable)
    - The JavaScript Drag & Drop library your grandparents warned you about. 
@@ -148,7 +152,7 @@ A list of frequently-used (personal) development tools and libraries with their 
    - mongodb object modeling for node.js
    - https://github.com/arcsource/tools-mongoose
 
-### Express
+### NodeJS
 
 - **express** [[link]](https://expressjs.com/)
    - Fast, unopinionated, minimalist web framework for node.
@@ -161,6 +165,10 @@ A list of frequently-used (personal) development tools and libraries with their 
 - **nodemailer**
    - module for Node.js applications to allow easy email sending
    - https://github.com/arcsource/tools-nodemailer
+
+- **pm2** [[link]](https://pm2.keymetrics.io/)
+   - Node.js Production Process Manager with a built-in Load Balancer.
+   - https://github.com/arcsource/tools-pm2
 
 ### PHP
 
@@ -177,6 +185,53 @@ The following PHP frameworks follows the  MVC architecture design pattern.
 - **phalcon** [[link]](https://phalcon.io/)
    - A full-stack PHP framework delivered as a C-extension, it features increased execution speed and optimal performance due to its efficient memory utilization. (Blazing-fast websites)
    - https://github.com/arcsource/tools-cphalcon
+
+### Web Servers
+
+- **xampp** (apache) [[link]](https://www.apachefriends.org/)
+   - A completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has been set up to be incredibly easy to install and to use.
+   - [download archived latest version ]()
+
+- **nginx** [[link]](https://www.nginx.com/)
+   - An open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more
+   - [download archived latest version ]()
+
+
+## Cloud Platforms
+
+### AWS
+
+- **aws-cli** [[link]](https://aws.amazon.com/cli/)
+   - Universal Command Line Interface for Amazon Web Services
+   - https://github.com/arcsource/tools-aws-cli
+
+- **amplify-js** (for react) [[link]](https://aws.amazon.com/amplify/), [amplify js react integration](https://docs.amplify.aws/start/q/integration/react/)
+   - A set of purpose-built tools and features that lets frontend web and mobile developers quickly and easily build full-stack applications on AWS. Configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console.
+   - https://github.com/arcsource/tools-amplify-js
+
+### Firebase
+
+- **firebase-cli** [[link]](https://firebase.google.com/docs/cli)
+   -  Provides a variety of tools for managing, viewing, and deploying to Firebase projects
+   -  https://github.com/arcsource/tools-firebase-tools
+
+- **bolt** [[link]](https://github.com/FirebaseExtended/bolt)
+   - Bolt Compiler (Firebase Security and Modeling) 
+   - https://github.com/arcsource/tools-bolt
+
+- **cloud-functions-emulator** [[link]](https://github.com/GoogleCloudPlatform/cloud-functions-emulator/wiki)
+   - A local emulator for deploying, running, and debugging Google Cloud Functions.
+   - https://github.com/arcsource/tools-cloud-functions-emulator
+
+- **firebase-to-csv**
+   - Node.js module for creating CSV backups of firebase databases.
+   - https://github.com/arcsource/tools-firebase-to-csv
+
+### Heroku
+
+- **heroku-cli** [[link]](https://devcenter.heroku.com/articles/heroku-cli)
+   - The Heroku Command Line Interface (CLI) lets you create and manage Heroku apps directly from the terminal.
+   - https://github.com/arcsource/tools-heroku-cli
 
 
 ## Security
@@ -232,21 +287,6 @@ The following PHP frameworks follows the  MVC architecture design pattern.
 - **mapboxgljs** [[link]](https://www.mapbox.com/mapbox-gljs)
    - Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL
    - https://github.com/arcsource/tools-mapbox-gl-js
-
-
-## Firebase
-
-- **bolt** [[link]](https://github.com/FirebaseExtended/bolt)
-   - Bolt Compiler (Firebase Security and Modeling) 
-   - https://github.com/arcsource/tools-bolt
-
-- **cloud-functions-emulator** [[link]](https://github.com/GoogleCloudPlatform/cloud-functions-emulator/wiki)
-   - A local emulator for deploying, running, and debugging Google Cloud Functions.
-   - https://github.com/arcsource/tools-cloud-functions-emulator
-
-- **firebase-to-csv**
-   - Node.js module for creating CSV backups of firebase databases.
-   - https://github.com/arcsource/tools-firebase-to-csv
 
 
 ## Package Managers/Task Runners

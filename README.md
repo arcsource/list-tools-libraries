@@ -164,6 +164,16 @@ A list of frequently-used (personal) development tools and libraries with their 
    - mongodb object modeling for node.js
    - https://github.com/arcsource/tools-mongoose
 
+- **firebase** (Javascript SDK) [[link]](https://firebase.google.com/docs/web/setup)
+   - Firebase (web) client javascript SDK for end-user access.
+   - Includes access to Firestore, Realtime-DB, Auth, and other Firebase products.
+   - https://github.com/arcsource/tools-firebase-js-sdk
+
+- **nodejs-firestore** (Node.js Server SDK) [[link]](https://cloud.google.com/nodejs/docs/reference/firestore/latest)
+   - Node.js client for Google Cloud Firestore: a NoSQL document database.  
+      > **NOTE:** Firestore for NodeJS servers are also accessible via [firebase-admin](https://www.npmjs.com/package/firebase-admin)
+   - https://github.com/arcsource/tools-nodejs-firestore
+
 ### NodeJS
 
 - **express** [[link]](https://expressjs.com/)
@@ -181,6 +191,19 @@ A list of frequently-used (personal) development tools and libraries with their 
 - **pm2** [[link]](https://pm2.keymetrics.io/)
    - Node.js Production Process Manager with a built-in Load Balancer.
    - https://github.com/arcsource/tools-pm2
+
+- **nodemon** [[link]](https://nodemon.io/)
+   - Monitor for any changes in your node.js application and automatically restart the server.
+   - https://github.com/arcsource/tools-nodemon
+
+- **firebase-admin** (NodeJS SDK) [[link]](https://www.npmjs.com/package/firebase-admin)
+   - Firebase Admin Node.js SDK, a set of server libraries that lets you interact with Firebase (Auth, Realtime-DB, Firestore, etc) from privileged environments to perform admin-actions.
+   - https://github.com/arcsource/tools-firebase-admin-node
+
+- **firebase-functions** (Cloud Functions for Firebase) [[link]](https://firebase.google.com/docs/functions)
+   - A serverless framework that lets you automatically run backend code in response to events triggered by Firebase features and HTTPS requests.
+   - Cloud Functions is a hosted, private, and scalable Node.js environment where you can run JavaScript code. The Firebase SDK for Cloud Functions integrates the Firebase platform by letting you write code that responds to events and invokes functionality exposed by other Firebase features.
+   - https://github.com/arcsource/tools-firebase-functions
 
 ### PHP
 
